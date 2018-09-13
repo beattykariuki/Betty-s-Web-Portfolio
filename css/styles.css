@@ -1,0 +1,46 @@
+{
+ font-family:sans-serif;
+}
+body{
+  background-color:#696969;
+ margin:0;
+ width:100%;
+  background-image: url("https://www.planwallpaper.com/static/images/8ccb4ec4225b290726ae9be975220ff4.jpg")
+  background-size:cover;
+ background-repeat:no-repeat;
+ list-style: none;
+}
+h2{
+ font-family:Lucida Sans;
+ color:white;
+ font-weight:bold;
+}
+h1{
+ font-family:Lucida Sans;
+ color:rgb(26, 18, 8)
+ font-weight:700;
+}
+ol{
+ color:black;
+}
+ul{
+ color:black;
+ margin:0 auto;
+ width:960px;
+}
+p {
+ color:rgb(15, 51, 63);
+}
+ul>li>p {
+ color: olive;
+}
+nav>ul>li{
+ display:inline-block;
+ background-color: white;
+}
+nav{
+ margin:0 auto;
+ padding:10px 0;
+ margin-right:0%;
+ max-width:960px;
+}
