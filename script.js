@@ -1,8 +1,17 @@
-$(function () {
-    $('.js-nav a, .js-connect').click(function (e) {
-        e.preventDefault();
-        $('body, html').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 750);
-    });
-});
+/*Smooth scrolling*/
+$('.nav-item a').on('click', function (event) {
+    if (this.hash !== '') {
+        event.preventDefault();
+        const hash = this.hash;
+
+        $('html, body').animate(
+            {
+                scrollTop: $(hash).offset().top
+            },
+            800,
+            function () {
+                window.location.hash = hash;
+            }
+        );
+    }
+})
